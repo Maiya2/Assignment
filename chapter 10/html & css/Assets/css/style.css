@@ -1,0 +1,262 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.pic{
+    width: 1020px;
+    height: 500px;
+}
+.coffee{
+    color: rgb(107, 102, 102);
+    top: 30px;
+    left: 10px;
+}
+.chai{
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    color: rgb(211, 211, 211);
+    font-size: 36px;
+    font-style: oblique;
+}
+.first{
+    position: absolute;
+    top: 210px;
+    left: 240px;
+    transform: translate(-50%, -50%);
+    color: rgb(211, 211, 211);
+    font-size: 34px;
+    font-style: oblique;
+}
+.cream{
+    position: absolute;
+    top:250px;
+    left: 240px;
+    transform: translate(-50%, -50%);
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+    font-style: oblique;
+}
+.name{
+    position: absolute;
+    top:420px;
+    left: 240px;
+    transform: translate(-50%, -50%);
+    color: rgb(185, 184, 184);
+    font-size: 22px;
+    font-style: oblique;
+}
+.button{
+   width: 1020px;
+   height: 45px;
+   background-color: rgb(20, 12, 3);
+   text-align: center; 
+   padding: 2px;
+}
+.home{
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 26px; 
+}
+.Contact{
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    font-size: 25px;
+}
+.Registration-form{
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    font-size: 25px;
+}
+.About{
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    font-size: 25px;
+}
+.contenair{
+    width: 998px;
+    padding: 10px;
+    height: 250px;
+    background-color: rgb(20, 12, 3);
+    color: white;
+    font-style: oblique;
+    padding: 12px;
+    font-size: 24px;
+    margin: 1% 0;
+}
+.contenair .kim
+{
+text-align: center;
+font-size: 35px;
+
+}
+.contenair .kokei{
+    text-align: center;
+}
+.sale{
+    width: 1020px;
+    height: 400px;
+    margin: 0px;
+}
+.left{
+    position: absolute;
+    top:1100px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-style: oblique;
+    height: 500px;
+    width: 440px;
+    font-style: bold; 
+    font-weight: bold ;
+}
+.lol{
+    width: 1015px;
+    height: 700px;
+    background-color: rgb(20, 12, 3);
+    padding: 2px;
+}
+.lol > img{
+    width: 450px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.lol > h1{
+    position: absolute;
+    top: 1280px;
+    left: 340px;
+    transform: translate(-50%, -50%);
+    color: rgb(17, 14, 14);
+    font-size: 42px;
+    font-style: oblique;
+    font-weight: bold;
+} 
+.lol > p{
+    position: absolute;
+    top: 1600px;
+    left: 660px;
+    transform: translate(-50%, -50%);
+    color: rgb(252, 240, 240);
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.ring{
+    width: 450px;
+    position: absolute;
+    top:220px;
+    left: 180px;
+    transform: translate(-50%, -50%);
+}
+.map{
+    margin: 4px;
+    border: solid 2px;
+}
+.insta{
+    color: rgb(255, 250, 250);
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 1560px;
+    left: 60px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem ;
+}
+.center{
+    display: flex;
+    text-align: center;
+    margin-left: 21rem;
+    color: #4b4c4d;
+}
+footer ul {
+    justify-content: center;
+}
+footer ul li {
+    margin: 0 1rem;
+}
+footer .social {
+    margin: 1.15rem 0;
+    text-align: center;
+}
+footer .social a{
+    font-size: 1.5rem;
+    color: #4b4c4d;
+    margin: 0 0.63rem;
+    opacity: 0.75;
+}
+footer .social a:hover{
+    opacity: 0.9;
+}
+footer p{
+    text-align: center;
+    opacity: 0.4;
+}
+.submite{
+  border: 1px solid #fdf7f7;
+  color: rgb(238, 230, 230);
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  position: absolute;
+  top: 280px;
+  left: 190px;
+  font-style: oblique;
+  transition: 2px;
+  border-style:dotted;
+  border-radius: 26px;
+}
+.submite:hover{
+    background-color: #fdf7f7;
+    color: rgb(17, 14, 14);
+}
+.color{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    background-color: #362c23;
+    margin: 2px;
+    width: 1010px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 240px;
+    border-radius: 20px;
+    margin-left: 16px;
+    padding: 4px;
+  }
+  .card:hover {
+    box-shadow: 0 50px 60px 0 rgba(219, 151, 5, 0.2);
+  }
+  img {
+    border-radius: 5px 5px 0 0;
+    width: 100px;
+  }
+  .one {
+    padding: 2px 16px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .two{
+    padding: 2px 10px;
+    text-align: center;
+  }
+  .three{
+    padding: 2px 10px;
+    text-align: center;
+    font-size: 24px;
+}
+  .math{
+      display: flex;
+  }
